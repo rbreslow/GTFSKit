@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GTFSKitSample
+//  GTFSKitExample
 //
-//  Created by Jack Wilsdon on 05/10/2015.
+//  Created by Jack Breslow (student LM) on 10/6/15.
 //  Copyright © 2015 Jack Wilsdon. All rights reserved.
 //
 

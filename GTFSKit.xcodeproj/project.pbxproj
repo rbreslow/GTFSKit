@@ -15,6 +15,13 @@
 		04E13D431BC317690070B75D /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E13D421BC317690070B75D /* CSVParser.swift */; settings = {ASSET_TAGS = (); }; };
 		04E13D451BC3D2510070B75D /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E13D441BC3D2510070B75D /* Stop.swift */; settings = {ASSET_TAGS = (); }; };
 		04E13D471BC3D81B0070B75D /* CSVData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E13D461BC3D81B0070B75D /* CSVData.swift */; settings = {ASSET_TAGS = (); }; };
+		EC5AC08F1BC43BCA00824887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AC08E1BC43BCA00824887 /* AppDelegate.swift */; };
+		EC5AC0911BC43BCA00824887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AC0901BC43BCA00824887 /* ViewController.swift */; };
+		EC5AC0941BC43BCA00824887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5AC0921BC43BCA00824887 /* Main.storyboard */; };
+		EC5AC0961BC43BCA00824887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5AC0951BC43BCA00824887 /* Assets.xcassets */; };
+		EC5AC0991BC43BCA00824887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5AC0971BC43BCA00824887 /* LaunchScreen.storyboard */; };
+		EC5AC0A41BC43BCA00824887 /* GTFSKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AC0A31BC43BCA00824887 /* GTFSKitExampleTests.swift */; };
+		EC5AC0AF1BC43BCA00824887 /* GTFSKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AC0AE1BC43BCA00824887 /* GTFSKitExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +31,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 044D9E7A1BC3043200ADB986;
 			remoteInfo = GTFSKit;
+		};
+		EC5AC0A01BC43BCA00824887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D9E721BC3043200ADB986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5AC08B1BC43BCA00824887;
+			remoteInfo = GTFSKitExample;
+		};
+		EC5AC0AB1BC43BCA00824887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D9E721BC3043200ADB986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5AC08B1BC43BCA00824887;
+			remoteInfo = GTFSKitExample;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,6 +60,19 @@
 		04E13D421BC317690070B75D /* CSVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
 		04E13D441BC3D2510070B75D /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		04E13D461BC3D81B0070B75D /* CSVData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVData.swift; sourceTree = "<group>"; };
+		EC5AC08C1BC43BCA00824887 /* GTFSKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTFSKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5AC08E1BC43BCA00824887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC5AC0901BC43BCA00824887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5AC0931BC43BCA00824887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5AC0951BC43BCA00824887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5AC0981BC43BCA00824887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC5AC09A1BC43BCA00824887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5AC09F1BC43BCA00824887 /* GTFSKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTFSKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5AC0A31BC43BCA00824887 /* GTFSKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTFSKitExampleTests.swift; sourceTree = "<group>"; };
+		EC5AC0A51BC43BCA00824887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5AC0AA1BC43BCA00824887 /* GTFSKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTFSKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5AC0AE1BC43BCA00824887 /* GTFSKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTFSKitExampleUITests.swift; sourceTree = "<group>"; };
+		EC5AC0B01BC43BCA00824887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +91,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC5AC0891BC43BCA00824887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC09C1BC43BCA00824887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC0A71BC43BCA00824887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +120,9 @@
 			children = (
 				044D9E7D1BC3043200ADB986 /* GTFSKit */,
 				044D9E891BC3043200ADB986 /* GTFSKitTests */,
+				EC5AC08D1BC43BCA00824887 /* GTFSKitExample */,
+				EC5AC0A21BC43BCA00824887 /* GTFSKitExampleTests */,
+				EC5AC0AD1BC43BCA00824887 /* GTFSKitExampleUITests */,
 				044D9E7C1BC3043200ADB986 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +132,9 @@
 			children = (
 				044D9E7B1BC3043200ADB986 /* GTFSKit.framework */,
 				044D9E851BC3043200ADB986 /* GTFSKitTests.xctest */,
+				EC5AC08C1BC43BCA00824887 /* GTFSKitExample.app */,
+				EC5AC09F1BC43BCA00824887 /* GTFSKitExampleTests.xctest */,
+				EC5AC0AA1BC43BCA00824887 /* GTFSKitExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +160,37 @@
 				044D9E8C1BC3043200ADB986 /* Info.plist */,
 			);
 			path = GTFSKitTests;
+			sourceTree = "<group>";
+		};
+		EC5AC08D1BC43BCA00824887 /* GTFSKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AC08E1BC43BCA00824887 /* AppDelegate.swift */,
+				EC5AC0901BC43BCA00824887 /* ViewController.swift */,
+				EC5AC0921BC43BCA00824887 /* Main.storyboard */,
+				EC5AC0951BC43BCA00824887 /* Assets.xcassets */,
+				EC5AC0971BC43BCA00824887 /* LaunchScreen.storyboard */,
+				EC5AC09A1BC43BCA00824887 /* Info.plist */,
+			);
+			path = GTFSKitExample;
+			sourceTree = "<group>";
+		};
+		EC5AC0A21BC43BCA00824887 /* GTFSKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AC0A31BC43BCA00824887 /* GTFSKitExampleTests.swift */,
+				EC5AC0A51BC43BCA00824887 /* Info.plist */,
+			);
+			path = GTFSKitExampleTests;
+			sourceTree = "<group>";
+		};
+		EC5AC0AD1BC43BCA00824887 /* GTFSKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AC0AE1BC43BCA00824887 /* GTFSKitExampleUITests.swift */,
+				EC5AC0B01BC43BCA00824887 /* Info.plist */,
+			);
+			path = GTFSKitExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +242,59 @@
 			productReference = 044D9E851BC3043200ADB986 /* GTFSKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EC5AC08B1BC43BCA00824887 /* GTFSKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5AC0B11BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExample" */;
+			buildPhases = (
+				EC5AC0881BC43BCA00824887 /* Sources */,
+				EC5AC0891BC43BCA00824887 /* Frameworks */,
+				EC5AC08A1BC43BCA00824887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTFSKitExample;
+			productName = GTFSKitExample;
+			productReference = EC5AC08C1BC43BCA00824887 /* GTFSKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5AC09E1BC43BCA00824887 /* GTFSKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5AC0B41BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExampleTests" */;
+			buildPhases = (
+				EC5AC09B1BC43BCA00824887 /* Sources */,
+				EC5AC09C1BC43BCA00824887 /* Frameworks */,
+				EC5AC09D1BC43BCA00824887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5AC0A11BC43BCA00824887 /* PBXTargetDependency */,
+			);
+			name = GTFSKitExampleTests;
+			productName = GTFSKitExampleTests;
+			productReference = EC5AC09F1BC43BCA00824887 /* GTFSKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC5AC0A91BC43BCA00824887 /* GTFSKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5AC0B71BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExampleUITests" */;
+			buildPhases = (
+				EC5AC0A61BC43BCA00824887 /* Sources */,
+				EC5AC0A71BC43BCA00824887 /* Frameworks */,
+				EC5AC0A81BC43BCA00824887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5AC0AC1BC43BCA00824887 /* PBXTargetDependency */,
+			);
+			name = GTFSKitExampleUITests;
+			productName = GTFSKitExampleUITests;
+			productReference = EC5AC0AA1BC43BCA00824887 /* GTFSKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +312,17 @@
 					044D9E841BC3043200ADB986 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
+					EC5AC08B1BC43BCA00824887 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EC5AC09E1BC43BCA00824887 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC5AC08B1BC43BCA00824887;
+					};
+					EC5AC0A91BC43BCA00824887 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC5AC08B1BC43BCA00824887;
+					};
 				};
 			};
 			buildConfigurationList = 044D9E751BC3043200ADB986 /* Build configuration list for PBXProject "GTFSKit" */;
@@ -175,6 +331,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 044D9E711BC3043200ADB986;
 			productRefGroup = 044D9E7C1BC3043200ADB986 /* Products */;
@@ -183,6 +340,9 @@
 			targets = (
 				044D9E7A1BC3043200ADB986 /* GTFSKit */,
 				044D9E841BC3043200ADB986 /* GTFSKitTests */,
+				EC5AC08B1BC43BCA00824887 /* GTFSKitExample */,
+				EC5AC09E1BC43BCA00824887 /* GTFSKitExampleTests */,
+				EC5AC0A91BC43BCA00824887 /* GTFSKitExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +356,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		044D9E831BC3043200ADB986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC08A1BC43BCA00824887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5AC0991BC43BCA00824887 /* LaunchScreen.storyboard in Resources */,
+				EC5AC0961BC43BCA00824887 /* Assets.xcassets in Resources */,
+				EC5AC0941BC43BCA00824887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC09D1BC43BCA00824887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC0A81BC43BCA00824887 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +410,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC5AC0881BC43BCA00824887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5AC0911BC43BCA00824887 /* ViewController.swift in Sources */,
+				EC5AC08F1BC43BCA00824887 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC09B1BC43BCA00824887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5AC0A41BC43BCA00824887 /* GTFSKitExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5AC0A61BC43BCA00824887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5AC0AF1BC43BCA00824887 /* GTFSKitExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -234,7 +443,36 @@
 			target = 044D9E7A1BC3043200ADB986 /* GTFSKit */;
 			targetProxy = 044D9E871BC3043200ADB986 /* PBXContainerItemProxy */;
 		};
+		EC5AC0A11BC43BCA00824887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5AC08B1BC43BCA00824887 /* GTFSKitExample */;
+			targetProxy = EC5AC0A01BC43BCA00824887 /* PBXContainerItemProxy */;
+		};
+		EC5AC0AC1BC43BCA00824887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5AC08B1BC43BCA00824887 /* GTFSKitExample */;
+			targetProxy = EC5AC0AB1BC43BCA00824887 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5AC0921BC43BCA00824887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5AC0931BC43BCA00824887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5AC0971BC43BCA00824887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5AC0981BC43BCA00824887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		044D9E8D1BC3043200ADB986 /* Debug */ = {
@@ -387,6 +625,76 @@
 			};
 			name = Release;
 		};
+		EC5AC0B21BC43BCA00824887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTFSKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5AC0B31BC43BCA00824887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTFSKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5AC0B51BC43BCA00824887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTFSKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTFSKitExample.app/GTFSKitExample";
+			};
+			name = Debug;
+		};
+		EC5AC0B61BC43BCA00824887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTFSKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTFSKitExample.app/GTFSKitExample";
+			};
+			name = Release;
+		};
+		EC5AC0B81BC43BCA00824887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTFSKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTFSKitExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC5AC0B91BC43BCA00824887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTFSKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackwilsdon.GTFSKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTFSKitExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,6 +724,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EC5AC0B11BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5AC0B21BC43BCA00824887 /* Debug */,
+				EC5AC0B31BC43BCA00824887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5AC0B41BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5AC0B51BC43BCA00824887 /* Debug */,
+				EC5AC0B61BC43BCA00824887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5AC0B71BC43BCA00824887 /* Build configuration list for PBXNativeTarget "GTFSKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5AC0B81BC43BCA00824887 /* Debug */,
+				EC5AC0B91BC43BCA00824887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
